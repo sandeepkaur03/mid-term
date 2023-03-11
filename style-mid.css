@@ -1,0 +1,92 @@
+/* body color */
+body {
+    background: #fff5e6;
+}
+body {
+    padding: 0px 200px;
+    margin: 0px;
+}
+/* first photo */
+.photo {
+    background: url(photos/cat.webp);
+    background-size: cover;
+    background-position: center;
+}
+/* photo text */
+.photo p {
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 235px 1px 66px;
+    color: white;
+}
+/* content */
+table img {
+    width: 180px;
+}
+table p {
+    margin: 0px 11px;
+    font-size: 17px;
+}
+/* links  */
+.navigation-list {
+    display: flex;
+    justify-content: space-around;
+}
+.list-nav {
+    font-size: 27px;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+}
+.list-nav.active {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+/* form */
+form {
+    border: 1px solid;
+    padding: 18px 14px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.full-width {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+.formtext {
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.radio {
+    font-size: 18px;
+}
+#submit {
+    border: 1px solid black;
+    width: 90px;
+    font-size: 14px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background: transparent;
+}
+input#btn {
+    width: 77px;
+    margin-top: 12px;
+}
+div#box {
+    background: white;
+}
+/* layout */
+div#detail, #cat-facts, #form-contact {
+    padding: 10px;
+}
+/* footer */
+footer {
+    padding: 10px;
+    text-align: right;
+}
